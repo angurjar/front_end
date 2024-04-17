@@ -3,6 +3,7 @@
 import Sidebar from "../components/sidebar";
 import Header from "../components/header";
 
+import Link from "next/link";
 const UserManagement = () => {
   return (
     <div className="app-wrapper">
@@ -11,6 +12,7 @@ const UserManagement = () => {
         <Header />
         <main>
           <h1>User Management</h1>
+          <Link href="/userlist">list</Link>
         </main>
       </div>
     </div>
